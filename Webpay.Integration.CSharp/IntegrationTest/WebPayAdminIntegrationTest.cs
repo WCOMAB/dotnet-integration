@@ -533,7 +533,7 @@ namespace Webpay.Integration.CSharp.IntegrationTest
             Assert.IsTrue(creditResponse.Accepted);
         }
         // WebpayAdmin.AddOrderRows()
-        [Test] public void Test_AddOrderRows_AddInvoiceOrderRows_OriginalAndUpdatedOrdersSpecifiedExVat()
+        [Test] public void T // Debugga detta testet för att undersöka AddOrderRowsRequest OrderType est_AddOrderRows_AddInvoiceOrderRows_OriginalAndUpdatedOrdersSpecifiedExVat()
         {
             // create order
             var order = TestingTool.CreateInvoiceOrderWithTwoOrderRows();
