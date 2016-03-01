@@ -50,8 +50,8 @@ var nuGetPackSettings   = new NuGetPackSettings {
                                 Symbols                 = false,
                                 NoPackageAnalysis       = true,
                                 Files                   = new [] {
-                                                                    new NuSpecContent {Source = "Webpay.Integration.CSharp.dll"},
-                                                                    new NuSpecContent {Source = "Webpay.Integration.CSharp.pdb"}
+                                                                    new NuSpecContent {Source = "Webpay.Integration.CSharp.dll", Target="lib/net40"},
+                                                                    new NuSpecContent {Source = "Webpay.Integration.CSharp.pdb", Target="lib/net40"}
                                                                  },
                                 BasePath                = binDir,
                                 OutputDirectory         = nugetRoot
